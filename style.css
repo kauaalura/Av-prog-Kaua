@@ -1,8 +1,8 @@
 
 :root{
-    --cor-de-fundo: #482813;
-    --branco-principal: #FFFFFF;
-    --fundo-degrade: #482813,#B58D73;
+    --cor-de-fundo: #0c0f0b;
+    --branco-principal: #f0f7eb;
+    --fundo-degrade: #141514,#47eb1e;
 }
 
 header{
@@ -25,12 +25,13 @@ header{
 }
 
 .tema{
-    background: linear-gradient(#482813,#B58D73);
+    background: linear-gradient(hsl(100, 39%, 5%),#150e0a);
     display: inline-flex;    
 }
 
 .imagem__1{
     margin: 2em;
+    width: 100%;
 }
 
 .imagem__2{
@@ -41,17 +42,18 @@ header{
 .texto{
     display: inline-block;
     text-align: center;
-    margin: 1em;
+    margin: 2em;
 }
 
 .tema__titulo{
     color: var(--branco-principal);
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .tema__descricao{
     color: var(--branco-principal);
-    font-size: 30px;
+    font-size: 25px;
+    margin: 4em;
 }
 
 
